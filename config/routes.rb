@@ -1,4 +1,6 @@
 Coba::Application.routes.draw do
+  resources :pengawas
+
   resources :members
 
   resources :books
